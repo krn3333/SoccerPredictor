@@ -1,0 +1,22 @@
+Instructions to Run the Application:
+
+1. Run the file SoccerPredcition.r which will display the results of the analysis.
+
+Results of Various Models:
+
+1. Run the file MultinomialRegression.r to get the results of winner predictions using Multinomial Regression. Results will be stored in PredictedWinnerMR.csv
+
+2. Run the file RandomForest.r to get the results of winner predictions using RandomForest Classification.
+Results will be stored in PredictedWinnerRF.csv
+
+3. Run the file PredictHomeScores.r and PredictAwayScores to get the results of score predictions.
+Results will be stored in HomeScores.csv and AwayScores.csv respectively
+
+4. Run the file BettingAwayOdds.r, BettingDrawOdds.r and BettingHomeOdds.r to get the betting points predictions.
+Results will be stored in AwayBettingOdds.csv, DrawBettingOdds and HomeBettingOdds.csv respectively.
+
+5. Run the file PercentageWin.r to get the results of Win Percentage Prediction. Before running this program, enter the home team and way team in the code itself to view results for different teams.
+
+6. Run the file Top3Winners.r to get the Top 3 teams and the points for the current league.
+
+*** The files provided in the folder DataCleaning is the code used to perform data cleaning. Do not run these files.
